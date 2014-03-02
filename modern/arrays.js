@@ -7,33 +7,66 @@
  * Available under MIT license <http://lodash.com/license>
  */
 
-export compact from 'compact';
-export difference from 'difference';
-export drop from 'rest';
-export findIndex from 'findIndex';
-export findLastIndex from 'findLastIndex';
-export first from 'first';
-export flatten from 'flatten';
-export head from 'first';
-export indexOf from 'indexOf';
-export initial from 'initial';
-export intersection from 'intersection';
-export last from 'last';
-export lastIndexOf from 'lastIndexOf';
-export object from 'zipObject';
-export pull from 'pull';
-export range from 'range';
-export remove from 'remove';
-export rest from 'rest';
-export slice from 'slice';
-export sortedIndex from 'sortedIndex';
-export tail from 'rest';
-export take from 'first';
-export union from 'union';
-export uniq from 'uniq';
-export unique from 'uniq';
-export unzip from 'zip';
-export without from 'without';
-export xor from 'xor';
-export zip from 'zip';
-export zipObject from 'zipObject';
+import compact from './arrays/compact';
+import difference from './arrays/difference';
+import drop from './arrays/rest';
+import findIndex from './arrays/findIndex';
+import findLastIndex from './arrays/findLastIndex';
+import first from './arrays/first';
+import flatten from './arrays/flatten';
+import head from './arrays/first';
+import indexOf from './arrays/indexOf';
+import initial from './arrays/initial';
+import intersection from './arrays/intersection';
+import last from './arrays/last';
+import lastIndexOf from './arrays/lastIndexOf';
+import object from './arrays/zipObject';
+import pull from './arrays/pull';
+import range from './arrays/range';
+import remove from './arrays/remove';
+import rest from './arrays/rest';
+import slice from './arrays/slice';
+import sortedIndex from './arrays/sortedIndex';
+import tail from './arrays/rest';
+import take from './arrays/first';
+import union from './arrays/union';
+import uniq from './arrays/uniq';
+import unique from './arrays/uniq';
+import unzip from './arrays/zip';
+import without from './arrays/without';
+import xor from './arrays/xor';
+import zip from './arrays/zip';
+import zipObject from './arrays/zipObject';
+
+export {
+  compact,
+  difference,
+  drop,
+  findIndex,
+  findLastIndex,
+  first,
+  flatten,
+  head,
+  indexOf,
+  initial,
+  intersection,
+  last,
+  lastIndexOf,
+  object,
+  pull,
+  range,
+  remove,
+  rest,
+  slice,
+  sortedIndex,
+  tail,
+  take,
+  union,
+  uniq,
+  unique,
+  unzip,
+  without,
+  xor,
+  zip,
+  zipObject
+}
